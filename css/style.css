@@ -1,0 +1,204 @@
+*{
+        margin: 0;
+        padding: 0;
+} 
+body{/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#febf01+0,febf01+100;Yellow+Flat */
+background: #febf01; /* Old browsers */
+background: -moz-linear-gradient(top,  #febf01 0%, #febf01 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #febf01 0%,#febf01 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #febf01 0%,#febf01 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febf01', endColorstr='#febf01',GradientType=0 ); /* IE6-9 */
+
+}
+       @-webkit-keyframes progress-bar-stripes {
+      from {
+        background-position: 40px 0;
+      }
+      to {
+        background-position: 0 0;
+      }
+    }
+
+    @keyframes progress-bar-stripes {
+      from {
+        background-position: 40px 0;
+      }
+      to {
+        background-position: 0 0;
+      }
+    }
+#arrow_block{
+    width: 0;
+    position: absolute;
+    left: 50%;
+}
+#arrow{
+        background: url(../images/ukzlane.png) center no-repeat;
+    width: 53px;
+    height: 83px;
+    position: absolute;
+    left: -26px;
+    top: -10px;
+    z-index: 3;
+}
+       .anim_box{
+            position: absolute;
+            width: inherit;
+            height: inherit;
+            transition: width .6s ease;
+            background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+            background-image: -o-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+            background-image: linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+            -webkit-background-size: 40px 40px;
+            background-size: 40px 40px;
+            -webkit-animation: progress-bar-stripes 2s linear infinite;
+            -o-animation: progress-bar-stripes 2s linear infinite;
+            animation: progress-bar-stripes 1s linear infinite;
+            background-color: rgba(0,0,0,0.1);
+            z-index: 2;
+       }
+#infoBlock{
+    margin: 50px auto;
+    width: 50%;
+    font-size: 0;
+    border-radius: 30px;
+    padding: 30px;/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f6f8f9+0,e5ebee+50,d7dee3+51,f5f7f9+100;White+Gloss */
+background: #f6f8f9; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #f6f8f9 0%, #e5ebee 50%, #d7dee3 51%, #f5f7f9 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #f6f8f9 0%,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #f6f8f9 0%,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#f5f7f9',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    border: 5px solid black;
+    font-family: Georgia;
+}
+#infoBlock label span{
+    font-size: 20px;
+}
+#infoBlock label{
+    
+    display: block;
+    margin: 5px 20px;
+}
+#infoBlock label span{
+    width:30%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+#infoBlock label input{
+    font-size: 20px;
+    font-family: Georgia;
+    width:70%;
+    background: transparent;
+    border: 2px solid black;
+    height: 30px;    
+    box-sizing: border-box;
+    display: inline-block;
+}
+#infoBlock input[type=button]:focus,#infoBlock input[type=button]:hover{
+    outline: none;
+}
+#infoBlock input[type=button]{
+    width:20%;
+    height: 40px;
+    display: block;
+    font-size: 20px;
+    font-family: Impact;
+    margin: 5px auto;
+    background: black;
+    color:white;
+    border-radius: 30px
+}
+
+#infoBlock ul li .uname{
+    color:white;
+    font-size: 18px;
+    margin: 0 20px;
+    width:40%;
+    display: inline-block;
+}
+
+#infoBlock ul li .ucount{
+    color:gold;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 20px;
+}
+#infoBlock ul li .uper{
+    color:white;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 20px;
+}
+#infoBlock ul li{
+    display: block;
+    margin: 3px auto;
+    padding: 10px;
+    background: rgba(0,0,0,0.5);
+    border-radius:  30px;
+    
+    
+}
+#infoBlock ul li span{
+    font-size: 14px;
+}
+
+#counterBlock #sinfo{
+    background-color: darkorange;
+    font-family: Georgia;
+    font-size:20px;
+    padding: 20px;
+    
+    display: block;
+}
+#counterBlock #sstart{
+    width:40px;
+    display: block;
+    height: 40px;
+    background-color: darkorange;
+    border: 5px solid black;
+    border-radius: 100%;
+    font-family: impact;
+    margin: 2px auto;
+    font-size:40px;
+    padding: 20px;
+}
+#counterBlock {
+    display: block;
+    width:30%;
+    margin: 10px auto;
+}
+
+#cont{
+position: relative;
+  height:100%;
+  width:100%;
+  margin:auto;
+  background:gray;
+  overflow:hidden;
+  font-size: 0;
+}
+#cont2{
+position: relative;
+  top:-60px;
+  left:100%;
+  height:100%;
+  width:100%;
+  margin:auto;
+  background:gray;
+  overflow:hidden;
+  font-size: 0;
+}
+#common_cont{
+    margin: auto;
+    width: 80%;
+    height:60px;
+    overflow: hidden;
+}
+.line{
+  position:relative;
+  width:25%;
+  height:100%;
+  background:green;
+  display:inline-block;
+}
